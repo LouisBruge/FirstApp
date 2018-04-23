@@ -19,7 +19,7 @@ function createWindow () {
   mainWindow.loadURL(url.format({
     pathname: path.join(__dirname, 'index.html'),
     protocol: 'file:',
-    slashes: true
+    frame: false
   }))
 
   // Open the DevTools.
